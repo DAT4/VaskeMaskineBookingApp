@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:text="2b"
+        android:layout_height="60dp"
+        android:hint="Room" />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:text="pass"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="Login"/>
+
+</LinearLayout>
